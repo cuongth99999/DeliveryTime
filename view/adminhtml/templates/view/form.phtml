@@ -113,7 +113,7 @@ $order = $block->getShipment()->getOrder();
                             });
                             window.packaging.setLabelCreatedCallback(function () {
                                 setLocation("{$block->escapeJs($block->getUrl(
-                    'adminhtml/order_shipment/view',
+                    'Adminhtml/order_shipment/view',
                     ['shipment_id' => $block->getShipment()->getId()]
                 ))}");
                             });

@@ -50,7 +50,7 @@ class AddressAttribute implements DataPatchInterface
         $eavSetup->addAttribute('customer_address', 'delivery_date', [
             'type'             => 'varchar',
             'input'            => 'text',
-            'label'            => 'Account Number',
+            'label'            => 'Delivery Date',
             'visible'          => true,
             'required'         => false,
             'user_defined'     => true,
@@ -61,7 +61,7 @@ class AddressAttribute implements DataPatchInterface
         ])->addAttribute('customer_address', 'delivery_time_interval', [
             'type'             => 'varchar',
             'input'            => 'text',
-            'label'            => 'Account Number',
+            'label'            => 'Delivety Time Interval',
             'visible'          => true,
             'required'         => false,
             'user_defined'     => true,
@@ -72,7 +72,7 @@ class AddressAttribute implements DataPatchInterface
         ])->addAttribute('customer_address', 'delivery_comment', [
             'type'             => 'varchar',
             'input'            => 'text',
-            'label'            => 'Account Number',
+            'label'            => 'Delivery Commet',
             'visible'          => true,
             'required'         => false,
             'user_defined'     => true,
